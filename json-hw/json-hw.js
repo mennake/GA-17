@@ -42,4 +42,3 @@ Did it create a valid JSON string?
 
 var JSONLinks = JSON.parse(JSON.stringify(links));
 console.log(JSONLinks);
-//thank you stack overflow ;-P
