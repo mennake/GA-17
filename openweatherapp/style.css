@@ -1,0 +1,55 @@
+
+*, 
+*:before, 
+*:after {
+   @include box-sizing(border-box); 
+}
+
+html, body {
+  background: #f1f1f1;
+  font-family: 'Arial', 'Verdana', sans-serif;
+  padding: 1em;
+}
+
+h1, h3 {
+   text-align: center;
+   color: #a8a8a8;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}  
+input, textarea {
+   border:0; outline:0;
+   padding: 1em;
+   border-radius:8px;
+   display: block;
+   width: 100%;
+   margin-top: 1em;
+   resize: none;
+}
+  
+#input-submit-get, #input-submit-ajax {
+   color: white; 
+   background: #81DD81;
+   cursor: pointer;
+ }
+    
+#input-submit-get:hover, #input-submit-ajax:hover {
+   background: #5bce5b;
+}
+#city, #state {
+  width: 68%;
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
